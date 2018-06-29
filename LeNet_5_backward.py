@@ -14,7 +14,7 @@ Model_Save_Path = './model/'
 Model_Name = 'mnist_model.ckpt'
 
 def backward(mnist):
-    x = tf.placeholder(tf.float32, [None, LeNet_5.Input_Node], name='x_input')
+    x = tf.placeholder(tf.float32, [Batch_Size, LeNet_5.Image_Size, LeNet_5.Image_Size, LeNet_5.Num_Channels], name='x_input')
     y_ = tf.placeholder(tf.float32, [None, LeNet_5.Output_Node], name='y_input')
     y = LeNet_5.forward(x, True, Regularizer_Rate)
     global_step = tf.Variable(0, trainable=False)
