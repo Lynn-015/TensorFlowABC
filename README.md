@@ -4,7 +4,7 @@
 
 ## TensorFlow的安装
 
-linux系统下安装cpu版tensorflow较为简单，可以参考网页：https://blog.csdn.net/nxcxl88/article/details/52704877?locationNum=13。gpu版安装较为复杂
+linux系统下安装cpu版tensorflow较为简单，可以参考网页：https://blog.csdn.net/nxcxl88/article/details/52704877?locationNum=13 。gpu版安装较为复杂
 
 
 
